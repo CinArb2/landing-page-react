@@ -1,0 +1,34 @@
+{
+  "data": [{
+    "id": "10",
+    "title": "Aboust us",
+    "text1": "How it works",
+    "text2": "Testimonials",
+    "text3": "Careers",
+    "text4": "Investors"
+  },
+  {
+    "id": "11",
+    "title": "Contact us",
+    "text1": "Contact",
+    "text2": "Support",
+    "text3": "Destinations",
+    "text4": "Sponsorships"
+  },
+  {
+    "id": "12",
+    "title": "Videos",
+    "text1": "Submit Video",
+    "text2": "Ambassadors",
+    "text3": "Agency",
+    "text4": "Influencer"
+  },
+  {
+    "id": "13",
+    "title": "Social Media",
+    "text1": "Instagram",
+    "text2": "Facebook",
+    "text3": "Youtube",
+    "text4": "Twitter"
+  }]
+}
