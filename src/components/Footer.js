@@ -9,7 +9,7 @@ import { HeadingSmall } from './Heading'
 const Footer = () => {
 
   return (
-    <Wrapper secondary bgPrimary minHeight70="50vh">
+    <Wrapper secondary bgPrimary minHeight70="50vh" id='footer'>
       <NewsLetter />
       <Container flex>
         {

@@ -8,9 +8,9 @@ import data from '../services.json'
 const SectionServices = () => {
 
   return (
-    <Wrapper>
+    <Wrapper id='services'>
       <HeadingMed>Check out this EPIC destinations!</HeadingMed>
-      <Container flex gridType='columns'>
+      <Container flex gridType='columns' mw='1700px'>
         {
           data.data.map(el => (
             <CardWrapper key={el.id} size={el.size}>

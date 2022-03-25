@@ -1,17 +1,20 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const CardWrapper = styled.div`
   min-height: 450px;
   border-radius: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  min-width: 300px;
-  width: ${(props)=> props.size || '28%'};
+  width: ${(props)=> props.size === 'big'? '43%': '28%'};
   min-width: 350px;
   display: grid;
   
   &:hover img{
     transform: scale(1.1)
     }
+
+  @media (max-width: ${({theme}) => theme.breakpoint.tablet}){
+    width: 70%;
+  }
 `
 
 export const CardImgWrapper = styled.div`

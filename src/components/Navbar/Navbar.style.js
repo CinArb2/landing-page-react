@@ -10,4 +10,5 @@ export const NavbarStyled = styled.nav`
   padding: 1rem 3rem;
   top: 0;
   z-index: 2;
+
 `

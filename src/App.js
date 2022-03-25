@@ -1,11 +1,10 @@
 import Home from './pages/Home';
 import { Routes, Route } from "react-router-dom";
-import Services from './pages/Services';
-import Products from './pages/Products';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer';
 import Theme from './components/Theme';
 import  GlobalStyle  from './components/GlobalStyle'
+import SectionServices from './components/SectionServices';
 
 function App() {
   return (
@@ -14,8 +13,8 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/Products" element={<Products />} />
+        <Route path="/" element={<SectionServices />} />
+        <Route path="/" element={<Footer />} />
       </Routes>
       <Footer/>
     </Theme>

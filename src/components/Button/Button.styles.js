@@ -10,10 +10,11 @@ export const ButtonPrim = styled.button`
   font-size: 1.2rem;
   margin-block: ${({ theme }) => theme.spacing.marginBlock};
   margin-inline: ${({ theme }) => theme.spacing.marginInline};
+  transition: background-color 400ms ease;
 
   &:hover{
     background-color:  ${({theme}) => theme.colour.secondary};
-    color: ${({theme}) => theme.colour.terciary};
+    color: ${({theme}) => theme.colour.tertiary};
   }
 `;
 
@@ -22,8 +23,8 @@ export const ButtonSec = styled(ButtonPrim)`
   color: ${({theme}) => theme.colour.tertiary};
 
   &:hover{
-    background-color:  ${({theme}) => theme.colour.terciary};
-    border: 1px solid ${({theme}) => theme.colour.terciary};
+    background-color:  ${({theme}) => theme.colour.tertiary};
+    border: 1px solid ${({theme}) => theme.colour.tertiary};
     color: ${({theme}) => theme.colour.secondary};
   }
 `;

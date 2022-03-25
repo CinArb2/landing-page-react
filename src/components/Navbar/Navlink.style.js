@@ -1,8 +1,8 @@
-import { NavLink } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 import styled from "styled-components";
 
 
-export const StyledNavLink = styled(NavLink)`
+export const StyledNavLink = styled(Link)`
   color: ${({theme}) => theme.colour.secondary};
   text-decoration: none;
   padding: 1rem;

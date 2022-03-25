@@ -1,7 +1,9 @@
 import styled, {css} from 'styled-components'
 
 export const Container = styled.div`
-  
+  max-width: ${props => props.mw};
+  margin: 1rem auto;
+
   ${props =>
     props.grid &&
     css`

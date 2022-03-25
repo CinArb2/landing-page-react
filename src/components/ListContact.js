@@ -7,6 +7,9 @@ export const ListContact = styled.section`
 
   & *{
     padding-block: 0.5rem;
+  }
+
+  @media (min-width: ${({theme}) => theme.breakpoint.tablet}){
     text-align: left;
   }
 `

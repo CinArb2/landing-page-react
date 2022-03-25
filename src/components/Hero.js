@@ -3,15 +3,15 @@ import { Wrapper } from './Wrapper/Wrapper.style'
 import { VideoHero } from './video'
 import ButtonPrim, { ButtonSec } from './Button/Button'
 import { Container } from './Container'
-import { Heading } from './Heading'
+import { Heading, HeadingMed } from './Heading'
 
 const Hero = () => {
   return (
-    <Wrapper secondary>
+    <Wrapper secondary id='hero'>
       <Container grid>
         <Container block>
           <Heading>Adventure awaits</Heading>
-          <p>What are you waiting for?</p>
+          <HeadingMed>What are you waiting for?</HeadingMed>
           <ButtonPrim>Get started</ButtonPrim>
           <ButtonSec>watch trailer</ButtonSec>
         </Container>
